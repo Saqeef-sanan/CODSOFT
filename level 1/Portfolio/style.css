@@ -1,0 +1,476 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFF7ED;
+}
+.header {
+    height: 100px;
+    width: 100vw;
+    text-align: center;
+    color: #44403C;
+}
+.logo {
+    font-size: 50px;
+    font-family: 'Share Tech Mono', monospace;
+    padding-top: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+.about {
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.ppc {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image : url(images/ppc2.jpg);
+    background-size: cover;
+    background-position:down center;
+}   
+.info {
+    height: 300px;
+    width: 1000px;
+    border-radius: 2rem;
+    corner-shape: squircle;
+    background-color: #FED7AA;
+    display: inline-block;
+}
+.bio {
+    color: #44403C;
+    font-size: 26px;
+    font-family: 'Share Tech Mono', monospace;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+#sk {
+    color: #44403C;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.skills {
+    height: 240px;
+    width: 40vw;
+    margin-left: 550px;
+    border-radius: 2rem;
+    corner-shape: squircle;
+    background-color: #FED7AA;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.skills p {
+    color: #44403C;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 20px 0;
+}
+.box1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 2rem;
+    corner-shape: squircle;
+    background-image: url(images/pichtml.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 20px;
+    transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    perspective: 1000px;
+}
+
+.box1:hover {
+    transform: rotateY(15deg) scale(1.07);
+    cursor: pointer;
+}
+.box2 {
+    height: 150px;
+    width: 150px;
+    border-radius: 2rem;
+    corner-shape: squircle;
+    background-image: url(images/piccss.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 20px;
+    transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 4px 16px #FED7AA;
+    perspective: 1000px;
+}
+
+.box2:hover {
+    transform: rotateY(15deg) scale(1.07);
+    cursor: pointer;
+}
+#ss {
+    color: #44403C;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.softskills {
+    height: 240px;
+    width: 40vw;
+    margin-left: 550px;
+    border-radius: 2rem;
+    corner-shape: squircle;
+    background-color: #FED7AA;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.softskills-list {
+    color: #44403C;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 26px;
+    list-style: disc inside;
+    padding-left: 20px;
+}
+
+.skill-tag {
+    display: inline-block;
+    background: #FED7AA;
+    color: #44403C;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    border-radius: 1rem;
+    padding: 8px 18px;
+    margin: 8px 8px 0 0;
+    border: 1px solid #EA580C;
+}
+#pro {
+    color: #44403C;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.Projects {
+    height: 450px;
+    width: 80vw;
+    margin-left: 150px;
+    border-radius: 2rem;
+    corner-shape: squircle;
+    background-color: #FED7AA;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box3 {
+    height: 250px;
+    width: 250px;
+    border-radius: 2rem;
+    corner-shape: squircle;
+    background-image: url(images/ironman_card.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 20px;
+    perspective: 1000px;
+    transition: all 0.3s ease;
+}
+.box3:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.box4 {
+    height: 250px;
+    width: 250px;
+    border-radius: 2rem;
+    corner-shape: squircle;
+    background-image: url(images/shesafe.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 20px;
+    transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 4px 16px #FED7AA;
+    perspective: 1000px;
+}
+.box4:hover {
+    transform: rotateY(15deg) scale(1.07);
+    cursor: pointer;
+}
+.box5 {
+    height: 250px;
+    width: 250px;
+    border-radius: 2rem;
+    corner-shape: squircle;
+    background-image: url(images/amazon_clone.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 20px;
+    transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 4px 16px #FED7AA;
+    perspective: 1000px;
+}
+.box5:hover {
+    transform: rotateY(15deg) scale(1.07);
+    cursor: pointer;
+}
+.p1, .p2, .p3{
+    height: 200px;
+    width: 250px;
+    border-radius: 2rem;
+    corner-shape: squircle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.box3:hover .p1, .box4:hover .p2, .box5:hover .p3, .box6:hover .p4 {
+    opacity: 1;
+}
+.btn1, .btn2, .btn3 {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #44403C;
+    background-color: #FED7AA;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.resume {
+    height: 100px;
+    width: 100vw;
+    text-align: center;
+    margin-top: 50px;
+}
+.btn5 {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #44403C;
+    background-color: transparent;
+    border: 2px solid #FED7AA;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.btn5:hover {
+    background-color: #FED7AA;
+    color: black;
+    transition: all 0.3s ease;
+}
+.contact-section {
+    background: #FED7AA; 
+    border-radius: 2rem;
+    max-width: 500px;
+    padding: 32px 28px 24px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-title {
+    color: #44403C;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    letter-spacing: 2px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 40%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 16px;
+    background: #FED7AA;
+    color: #44403C;
+    outline: none;
+    resize: none;
+}
+
+.contact-form textarea {
+    min-height: 60px;
+    max-height: 120px;
+}
+
+.submit-btn {
+    background: #EA580C;
+    color: #222831;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+}
+
+.submit-btn:hover {
+    transform: scale(1.05);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px auto 0 auto; 
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.footer {
+    height: 60px;
+    width: 100vw;
+    text-align: center;
+    background-color: #FED7AA;
+    color: #44403C;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* ...existing code... */
+
+@media (max-width: 768px) {
+    .header, .resume, .footer {
+        width: 100vw;
+        font-size: 18px;
+    }
+    .logo {
+        font-size: 32px;
+        padding-top: 10px;
+    }
+    .about {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .ppc {
+        height: 120px;
+        width: 120px;
+    }
+    .info {
+        width: 90vw;
+        height: auto;
+        font-size: 18px;
+        padding: 10px;
+    }
+    .bio {
+        font-size: 18px;
+        padding: 10px;
+    }
+    #sk, #ss, #pro {
+        font-size: 28px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .skills, .softskills {
+        width: 90vw;
+        margin-left: 0;
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 10px 0;
+    }
+    .skills p {
+        font-size: 24px;
+    }
+    .box1, .box2 {
+        height: 90px;
+        width: 90px;
+        margin: 10px;
+    }
+    .softskills-list {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    .skill-tag {
+        font-size: 14px;
+        padding: 6px 12px;
+        margin: 4px 4px 0 0;
+    }
+    .Projects {
+        flex-direction: column;
+        width: 95vw;
+        margin-left: 0;
+        height: auto;
+        gap: 10px;
+        padding: 10px 0;
+    }
+    .box3, .box4, .box5 {
+        height: 140px;
+        width: 90vw;
+        max-width: 250px;
+        margin: 10px 0;
+    }
+    .p1, .p2, .p3 {
+        height: 100px;
+        width: 90vw;
+        max-width: 250px;
+        font-size: 14px;
+    }
+    .btn1, .btn2, .btn3, .btn5 {
+        font-size: 14px;
+        padding: 8px 12px;
+        margin-left: 0;
+    }
+    .contact-section {
+        max-width: 95vw;
+        padding: 16px 8px 12px 8px;
+    }
+    .contact-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        width: 90%;
+        font-size: 14px;
+        padding: 8px;
+    }
+    .submit-btn {
+        font-size: 14px;
+        padding: 6px 16px;
+    }
+    .social-links {
+        height: 40px;
+        width: 40px;
+    }
+    .footer {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+}
